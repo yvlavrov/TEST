@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Ярослав Лавров</title>
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+	<div class="container">
+		<div class="row row-top">
+			<div class="header col-lg-7 col-lg-offset-1 col-md-8 col-sm-7">
+				<h1 class="header__title">Закажите царский ремонтъ <span class="header__feature">кондея</span></h1>
+				<p class="header__desc">Государъ! Введи номер своего голубя и укажи требуемую услугу. Наши крестьяне могут быть посланы в любую точку царской России и будут у вас уже в течение года.</p>
+			</div>
+		</div>	
+		<div class="row row-bottom">
+			<div class="phone col-lg-3 col-lg-offset-1 col-md-3 col-sm-4">
+				<div class="form-group-lg">
+			    <label for="inputTel" class="phone__label">Введите номер голубя:</label>
+			    <input type="tel" class="form-control phone__form" id="inputTel" placeholder="+7(___) ___-__-__">
+			  </div>
+			</div>
+			<div class="serviсe col-lg-3 col-md-3 col-sm-4">
+				<span class="serviсe__title">Укажите требуемую услугу</span>
+				 <select class="form-control serviсe__form">
+					<option value="0">Услуга один</option>
+					<option value="1">Услуга два</option>
+					<option value="2">Услуга три</option>
+				</select>
+			</div>
+			<div class="submitBtn col-lg-2 col-md-2 col-sm-4">
+				<button type="button" class="btn btn-lg btn-block submitBtn__btn" data-toggle="button" id="btn">
+				Отправить
+				</button>
+			</div>
+		</div>	
+<script src="libs/jquery/jquery-3.2.1.js" ></script>
+<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+<script src="libs/jquery.maskedinput/jquery.maskedinput.min.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>

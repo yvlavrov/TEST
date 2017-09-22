@@ -1,0 +1,115 @@
+body {
+  -webkit-font-smoothing: subpixel-antialiased !important;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  font-family: arial, sans-serif;
+}
+
+.container {
+	min-height: 270px;
+	background-color: #146ba0;
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-image: url(../images/Image.png);
+	padding-top: 18px;
+	border-radius: 10px;
+	padding-bottom: 15px;
+}
+
+/* -------------row-top--------------- */
+
+.header__title {
+	font-family: Arial, sans;
+	font-size: 24px;
+	font-weight: 600;
+	color: #fff;
+}
+.header__feature {
+	color: #ffd015;
+}
+
+.header__feature {
+	position: relative;
+}
+.header__feature:before {
+	content: "";
+	width: 90px;
+	height: 5px;
+	position: absolute;
+	top: 25px;
+	left: 0;
+	background-image: url(../images/Underline.png);
+	background-repeat: no-repeat;
+}
+
+.header__desc {
+	padding-top: 12px;
+	font-size: 16px;
+	color: #b7d7eb;
+}
+
+.phone__label {
+	font-weight: 400;
+	color: #fff;
+	font-size: 16px;
+
+}
+.serviсe__title {
+	color: #fff;
+	font-size: 16px;
+
+}
+
+/* -------------row-bottom--------------- */
+
+.row-bottom {
+	padding-top: 10px;
+}
+
+
+.serviсe__form {
+	margin-top: 5px;
+	height: 50px;
+	-webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+	        box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+	color: #666666;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+.phone__form {
+	height: 50px !important;
+	-webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+	        box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.submitBtn {
+	padding-top: 22px;
+}
+
+.submitBtn__btn {
+	background-color: #ffd015;
+	color: #333333;
+	font-weight: 600;
+	font-size: 16px;
+	height: 50px;
+	border-color: rgb(204,204,204);
+	margin-top: 5px;
+	-webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+	        box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.submitBtn__btn:hover {
+	background-color: #ffe478;
+	border: #ffe478;
+	outline: none;
+}
+
+.submitBtn__btn:active {
+	background-color: #e4b600;
+	border: #e4b600;
+	outline: none;
+}
+
+

@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+	.container {
+	    background: -webkit-gradient(linear, right top, left bottom, from(#46a4a6), color-stop(60%, #146ba0));
+	    background: -webkit-linear-gradient(top right, #46a4a6, #146ba0 60%);
+	    background: -o-linear-gradient(top right, #46a4a6, #146ba0 60%);
+	    background: linear-gradient(to bottom left, #46a4a6, #146ba0 60%);
+	}
+}
